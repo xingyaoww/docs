@@ -1,0 +1,147 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "OpenHands Documentation",
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
+  },
+  "favicon": "/images/logo.png",
+  "colors": {
+    "primary": "#FFD700",
+    "light": "#FFEB3B",
+    "dark": "#FFC107",
+    "anchors": {
+      "from": "#FFD700",
+      "to": "#FFC107"
+    }
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "usage/installation",
+        "usage/getting-started",
+        "usage/key-features"
+      ]
+    },
+    {
+      "group": "OpenHands Cloud",
+      "pages": [
+        "usage/cloud/openhands-cloud",
+        "usage/cloud/cloud-api",
+        "usage/cloud/cloud-github-resolver"
+      ]
+    },
+    {
+      "group": "Prompting",
+      "pages": [
+        "usage/prompting/prompting-best-practices"
+      ]
+    },
+    {
+      "group": "Customization",
+      "pages": [
+        "usage/customization/repository",
+        {
+          "group": "Microagents",
+          "pages": [
+            "usage/prompting/microagents-overview",
+            "usage/prompting/microagents-repo",
+            "usage/prompting/microagents-keyword",
+            "usage/prompting/microagents-org",
+            "usage/prompting/microagents-public"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Usage Methods",
+      "pages": [
+        "usage/how-to/gui-mode",
+        "usage/how-to/cli-mode",
+        "usage/how-to/headless-mode",
+        "usage/how-to/github-action"
+      ]
+    },
+    {
+      "group": "Advanced Configuration",
+      "pages": [
+        {
+          "group": "LLM Configuration",
+          "pages": [
+            "usage/llms/llms",
+            {
+              "group": "Providers",
+              "pages": [
+                "usage/llms/azure-llms",
+                "usage/llms/google-llms",
+                "usage/llms/groq",
+                "usage/llms/local-llms",
+                "usage/llms/litellm-proxy",
+                "usage/llms/openai-llms",
+                "usage/llms/openrouter"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Runtime Configuration",
+          "pages": [
+            "usage/runtimes-index",
+            "usage/runtimes/docker",
+            "usage/runtimes/remote",
+            "usage/runtimes/modal",
+            "usage/runtimes/daytona",
+            "usage/runtimes/local"
+          ]
+        },
+        "usage/configuration-options",
+        "usage/how-to/custom-sandbox-guide",
+        "usage/mcp"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "usage/troubleshooting/troubleshooting"
+      ]
+    },
+    {
+      "group": "Feedback",
+      "pages": [
+        "usage/feedback"
+      ]
+    },
+    {
+      "group": "For OpenHands Developers",
+      "pages": [
+        "usage/how-to/development-overview",
+        {
+          "group": "Architecture",
+          "pages": [
+            "usage/architecture/backend",
+            "usage/architecture/runtime"
+          ]
+        },
+        "usage/how-to/debugging",
+        "usage/how-to/evaluation-harness",
+        "usage/how-to/websocket-connection"
+      ]
+    },
+    {
+      "group": "About",
+      "pages": [
+        "usage/about"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/python"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/All-Hands-AI/OpenHands"
+  }
+}
