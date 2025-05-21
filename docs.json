@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#FFD700",
     "light": "#FFEB3B",
-    "dark": "#FFC107",
-    "anchors": {
-      "from": "#FFD700",
-      "to": "#FFC107"
-    }
+    "dark": "#FFC107"
   },
   "navigation": [
     {
@@ -36,23 +32,18 @@
     {
       "group": "Prompting",
       "pages": [
-        "usage/prompting/prompting-best-practices"
+        "usage/prompting/prompting-best-practices",
+        "usage/prompting/microagents-overview",
+        "usage/prompting/microagents-repo",
+        "usage/prompting/microagents-keyword",
+        "usage/prompting/microagents-org",
+        "usage/prompting/microagents-public"
       ]
     },
     {
       "group": "Customization",
       "pages": [
-        "usage/customization/repository",
-        {
-          "group": "Microagents",
-          "pages": [
-            "usage/prompting/microagents-overview",
-            "usage/prompting/microagents-repo",
-            "usage/prompting/microagents-keyword",
-            "usage/prompting/microagents-org",
-            "usage/prompting/microagents-public"
-          ]
-        }
+        "usage/customization/repository"
       ]
     },
     {
@@ -65,37 +56,32 @@
       ]
     },
     {
+      "group": "LLM Configuration",
+      "pages": [
+        "usage/llms/llms",
+        "usage/llms/azure-llms",
+        "usage/llms/google-llms",
+        "usage/llms/groq",
+        "usage/llms/local-llms",
+        "usage/llms/litellm-proxy",
+        "usage/llms/openai-llms",
+        "usage/llms/openrouter"
+      ]
+    },
+    {
+      "group": "Runtime Configuration",
+      "pages": [
+        "usage/runtimes-index",
+        "usage/runtimes/docker",
+        "usage/runtimes/remote",
+        "usage/runtimes/modal",
+        "usage/runtimes/daytona",
+        "usage/runtimes/local"
+      ]
+    },
+    {
       "group": "Advanced Configuration",
       "pages": [
-        {
-          "group": "LLM Configuration",
-          "pages": [
-            "usage/llms/llms",
-            {
-              "group": "Providers",
-              "pages": [
-                "usage/llms/azure-llms",
-                "usage/llms/google-llms",
-                "usage/llms/groq",
-                "usage/llms/local-llms",
-                "usage/llms/litellm-proxy",
-                "usage/llms/openai-llms",
-                "usage/llms/openrouter"
-              ]
-            }
-          ]
-        },
-        {
-          "group": "Runtime Configuration",
-          "pages": [
-            "usage/runtimes-index",
-            "usage/runtimes/docker",
-            "usage/runtimes/remote",
-            "usage/runtimes/modal",
-            "usage/runtimes/daytona",
-            "usage/runtimes/local"
-          ]
-        },
         "usage/configuration-options",
         "usage/how-to/custom-sandbox-guide",
         "usage/mcp"
@@ -117,13 +103,8 @@
       "group": "For OpenHands Developers",
       "pages": [
         "usage/how-to/development-overview",
-        {
-          "group": "Architecture",
-          "pages": [
-            "usage/architecture/backend",
-            "usage/architecture/runtime"
-          ]
-        },
+        "usage/architecture/backend",
+        "usage/architecture/runtime",
         "usage/how-to/debugging",
         "usage/how-to/evaluation-harness",
         "usage/how-to/websocket-connection"
