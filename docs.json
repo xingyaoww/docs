@@ -1,102 +1,131 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "OpenHands Documentation",
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/logo.png",
+  "theme": "mint",
+  "colors": {
+    "primary": "#FFD700",
+    "light": "#FFEB3B",
+    "dark": "#FFC107"
+  },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "group": "Getting Started",
+        "pages": [
+          "usage/installation",
+          "usage/getting-started",
+          "usage/key-features"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "OpenHands Cloud",
+        "pages": [
+          "usage/cloud/openhands-cloud",
+          "usage/cloud/cloud-api",
+          "usage/cloud/cloud-github-resolver"
+        ]
+      },
+      {
+        "group": "Prompting",
+        "pages": [
+          "usage/prompting/prompting-best-practices",
+          "usage/prompting/microagents-overview",
+          "usage/prompting/microagents-repo",
+          "usage/prompting/microagents-keyword",
+          "usage/prompting/microagents-org",
+          "usage/prompting/microagents-public"
+        ]
+      },
+      {
+        "group": "Customization",
+        "pages": [
+          "usage/customization/repository"
+        ]
+      },
+      {
+        "group": "Usage Methods",
+        "pages": [
+          "usage/how-to/gui-mode",
+          "usage/how-to/cli-mode",
+          "usage/how-to/headless-mode",
+          "usage/how-to/github-action"
+        ]
+      },
+      {
+        "group": "LLM Configuration",
+        "pages": [
+          "usage/llms/llms",
+          "usage/llms/azure-llms",
+          "usage/llms/google-llms",
+          "usage/llms/groq",
+          "usage/llms/local-llms",
+          "usage/llms/litellm-proxy",
+          "usage/llms/openai-llms",
+          "usage/llms/openrouter"
+        ]
+      },
+      {
+        "group": "Runtime Configuration",
+        "pages": [
+          "usage/runtimes-index",
+          "usage/runtimes/docker",
+          "usage/runtimes/remote",
+          "usage/runtimes/modal",
+          "usage/runtimes/daytona",
+          "usage/runtimes/local"
+        ]
+      },
+      {
+        "group": "Advanced Configuration",
+        "pages": [
+          "usage/configuration-options",
+          "usage/how-to/custom-sandbox-guide",
+          "usage/mcp"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "usage/troubleshooting/troubleshooting"
+        ]
+      },
+      {
+        "group": "Feedback",
+        "pages": [
+          "usage/feedback"
+        ]
+      },
+      {
+        "group": "For OpenHands Developers",
+        "pages": [
+          "usage/how-to/development-overview",
+          "usage/architecture/backend",
+          "usage/architecture/runtime",
+          "usage/how-to/debugging",
+          "usage/how-to/evaluation-harness",
+          "usage/how-to/websocket-connection"
+        ]
+      },
+      {
+        "group": "About",
+        "pages": [
+          "usage/about"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api-reference/python"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  "footerSocials": {
+    "github": "https://github.com/All-Hands-AI/OpenHands"
   }
 }

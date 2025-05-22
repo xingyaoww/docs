@@ -1,0 +1,12 @@
+# Ignore directories
+.browser_screenshots/
+.vscode/
+OpenHands/
+lost+found/
+
+# Ignore node modules
+node_modules/
+
+# Ignore build files
+.next/
+.mintlify/
